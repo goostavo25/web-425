@@ -3,7 +3,7 @@
 ; Title: Assignment 1.4
 ; Author: Professor Krasso
 ; Date: 08 January 2022
-; Modified By: Gustavo Roo
+; Modified By: Gustavo Roo Gonzalez
 ; Description: Program to demonstrate Angular
 ;===============================================
 */
