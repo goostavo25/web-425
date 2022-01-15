@@ -1,0 +1,47 @@
+<!--
+============================================================
+; Title: Assignment 2.4 Routing in Action
+; Author: Professor Krasso
+; Date: 15 January 2022
+; Modified By: Gustavo Roo Gonzalez
+; Description: Composer application  using Angular routes
+============================================================
+*/-->
+
+<!--navigation bar-->
+<nav
+  class="navbar navbar-expand-sm navbar-dark"
+  style="background-color: darkgray"
+>
+  <ul class="navbar nav">
+    <!--Link to Home-->
+    <li class="nav-item-active">
+      <a class="nav-link" routerLink="/composer-list" style="color: white"
+        >Home</a
+      >
+    </li>
+
+    <!--Link to About-->
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/about" style="color: white">About</a>
+    </li>
+
+    <!--Link to Contact Us-->
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/contact" style="color: white"
+        >Contact Us</a
+      >
+    </li>
+  </ul>
+</nav>
+
+<!--M ain body container with assignment elements -->
+<div class="container">
+  <br />
+  <br />
+  <!-- App Title-->
+  <h1>Composer App</h1>
+
+  <!--Router outlet to display views-->
+  <router-outlet></router-outlet>
+</div>
