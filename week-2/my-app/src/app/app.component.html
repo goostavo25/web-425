@@ -1,0 +1,44 @@
+<!--
+=========================================================
+; Title: Assignment 2.2 Navigation
+; Author: Professor Krasso
+; Date 15 January 2022
+; Modified By: Gustavo Roo Gonzalez
+; Description: Use of router-outlet for navigation bar
+=========================================================
+*/-->
+
+<!--Navbar with links -->
+<nav class="navbar navbar-expand-sm bg-dark narvbar-dark">
+  <!-- Unordered list for navigation bar -->
+  <ul class="navbar-nav">
+    <!--Home link, active-->
+    <li class="nav-item active">
+      <a class="nav-link" routerLink="/home">Home</a>
+    </li>
+    <!--About link-->
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/about">About</a>
+    </li>
+    <!--Contact link-->
+    <li>
+      <a class="nav-link" routerLink="/contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+
+<!--Container with assignment elements-->
+<div class="container">
+  <br />
+  <br />
+  <h2>Exercise 2.2 Navigation</h2>
+  <!-- Row -->
+  <div class="row">
+    <!-- Column -->
+    <div class="col-sm-12">
+      <div class="alert alert-success" role="alert">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
