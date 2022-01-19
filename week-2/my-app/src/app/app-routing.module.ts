@@ -1,3 +1,13 @@
+/**
+ *
+=====================================================
+; Title: app-routing.module.ts
+; Author: Gustavo Roo Gonzalez
+; Date: 15 January 2022
+; Description: App Routing
+=====================================================
+*/
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';

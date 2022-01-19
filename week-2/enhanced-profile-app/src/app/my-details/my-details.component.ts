@@ -1,3 +1,15 @@
+/**
+ *<!--
+=====================================================
+; Title: my-details.component.ts
+; Author: Professor Krasso
+; Date: 15 January 2022
+; Modified By: Gustavo Roo Gonzalez
+; Description: My details
+=====================================================
+ *
+ */
+
 import { Component, OnInit } from '@angular/core';
 
 export default class Person {
