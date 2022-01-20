@@ -1,3 +1,10 @@
+/**
+ * Title: app-routing.modules.ts
+ * Author: Gustavo Roo Gonzalez
+ * Date: 1/16/2022
+ * Description: Routing for Composer App
+ */
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -12,13 +19,10 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     ComposerListComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

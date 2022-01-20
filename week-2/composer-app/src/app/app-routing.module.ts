@@ -1,3 +1,10 @@
+/**
+ * Title: app-routing.modules.ts
+ * Author: Gustavo Roo Gonzalez
+ * Date: 1/16/2022
+ * Description: Routing for Composer App.
+ */
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 

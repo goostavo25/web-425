@@ -1,3 +1,10 @@
+/**
+ * Title: composer-list.component.ts
+ * Author: Gustavo Roo Gonzalez
+ * Date: 1/16/2022
+ * Description: Composer-List Component
+ */
+
 import { Component, OnInit } from '@angular/core';
 
 export default class Composer {
