@@ -1,6 +1,6 @@
 /**
  * Title: contact.components.ts
- * Author: Oksana Kustova
+ * Author: Gustavo Roo Gonzalez
  * Date: 1/16/2022
  * Description: ContactComponent.
  */
