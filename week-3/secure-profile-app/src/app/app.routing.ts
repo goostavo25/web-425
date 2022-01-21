@@ -11,12 +11,13 @@
 //Import statement for Router, SignInComponent, and HomeComponent
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { SigninComponent } from './signin/signin.component';
 
 //Create and export and array of Route objects
 export const AppRoutes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    component: SigninComponent,
   },
   {
     path: 'home',

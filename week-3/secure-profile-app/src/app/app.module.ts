@@ -16,6 +16,7 @@ import { MyDetailsComponent } from './my-details/my-details.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutes } from './app.routing';
 import { RouterModule } from '@angular/router';
+import { SigninComponent } from './signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { RouterModule } from '@angular/router';
     MyImageComponent,
     MyDetailsComponent,
     HomeComponent,
+    SigninComponent,
   ],
   imports: [BrowserModule, RouterModule.forRoot(AppRoutes)],
   providers: [],
