@@ -1,0 +1,23 @@
+<!--/*
+==============================================================
+; Title: Exercise 3.2 - Passing Data to Routes, Part 1
+; Author: Professor Krasso
+; Date: 20 January 2022
+; Modified By: Gustavo Roo Gonzalez
+; Description: HTML page for composer details info
+==============================================================
+*/-->
+
+<!--Table With Composer Info-->
+
+<div class="row">
+  <div class="col-sm-12">
+    <ul class="list-group">
+      <li class="list-group-item">Composer ID: {{ composer.composerId }}</li>
+      <li class="list-group-item">Full name: {{ composer.fullName }}</li>
+      <li class="list-group-item">Genre: {{ composer.genre }}</li>
+    </ul>
+    <br />
+    <a routerLink="/composer-list" class="float-right">Return to Composers</a>
+  </div>
+</div>
