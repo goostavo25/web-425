@@ -1,0 +1,35 @@
+<!--/*
+=====================================================
+; Title: Assignment 6.3 Layouts
+; Author: Professor Krasso
+; Date: 10 February 2022
+; Modified By: Gustavo Roo Gonzalez
+; Description: Reusable layouts w/ different routes
+=====================================================
+*/-->
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div class="logo"></div>
+    <img src="./assets/gpa-calculator-app.png" height="80" />
+    <div style="width: 80%">
+      <div fxLayout="row wrap" fxLayoutAlign="end start">
+        <button mat-button routerLink="/">Home</button>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<br />
+
+<div fxLayout="row wrap">
+  <div fxFlex>
+    <mat-card class="main-container">
+      <mat-card-title>{{ assignment }}</mat-card-title>
+      <br /><br />
+      <mat-card-content>
+        <router-outlet></router-outlet>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

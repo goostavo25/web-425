@@ -1,0 +1,51 @@
+/*
+=================================================================================================
+; Title: Assignment 6.3 Layouts
+; Author: Gustavo Roo Gonzalez
+; Date: 10 February 2022
+; Description: Styling for Not Found Page
+; GIF image from https://giphy.com/gifs/STARFACE-GmbH-looping-404-starface-UoeaPqYrimha6rdTFV
+=================================================================================================
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 75%;
+  right: 20px;
+  background-color: transparent;
+  color: rgb(67, 25, 219);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+button {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: rgb(67, 25, 219);
+  color: rgb(244, 221, 9);
+}
+
+a {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(234, 241, 11);
+}
