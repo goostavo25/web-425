@@ -1,0 +1,29 @@
+/*
+========================================================================
+; Title: Assignment 7.2 Reactive Forms
+; Author: Professor Krasso
+; Date: 18 February 2022
+; Modified By: Gustavo Roo Gonzalez
+; Description: Use of Reactive Forms in Sign-In guard for GPA Calculator
+========================================================================
+*/
+
+/*Sign-in-container*/
+.sign-in-container {
+  width: 35%;
+  margin: 15% auto;
+}
+
+/*Message error*/
+.message-error {
+  margin: 10px 0;
+  padding: 12px;
+  color: #d8000c;
+  background-color: #ffd2d2;
+}
+
+/*Text-center-alignment*/
+.sign-in-container > mat-card-title,
+mat-card-subtitle {
+  text-align: center;
+}
